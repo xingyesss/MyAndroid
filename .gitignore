@@ -1,0 +1,9 @@
+.idea/
+
+*.pro
+*.iml
+gradlew
+gradlew.bat
+/build
+/captures
+*.apk
