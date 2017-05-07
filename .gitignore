@@ -7,3 +7,8 @@ gradlew.bat
 /build
 /captures
 *.apk
+.gradle
+local.properties
+.gradle/
+gradle.properties
+gradle/
