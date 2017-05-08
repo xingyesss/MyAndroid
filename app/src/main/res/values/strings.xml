@@ -2,4 +2,13 @@
     <string name="app_name">MyAndroid</string>
     <string name="loadinNow">加载中...</string>
     <string name="loading">加载中...</string>
+
+    <string name="text_photo">相册</string>
+    <string name="text_camera">拍照</string>
+    <string name="text_cancel">取消</string>
+
+    <string name="permission_prompt">应用需要使用拍照、文件读写权限为您服务，是否去设置?</string>
+    <string name="permission_prompt1">应用需要使用文件读写权限为您服务，是否去设置?</string>
+    <string name="text_ok">确定</string>
+    <string name="prompt">权限提示</string>
 </resources>

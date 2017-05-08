@@ -21,4 +21,16 @@
         <item name="android:backgroundDimAmount">0.6</item><!--背景的灰度-->
     </style>
 
+    <style name="dialog_bg" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+    </style>
+
+    <style name="line_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#ECECEB</item>
+    </style>
+
 </resources>
