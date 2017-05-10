@@ -11,4 +11,5 @@
     <string name="permission_prompt1">应用需要使用文件读写权限为您服务，是否去设置?</string>
     <string name="text_ok">确定</string>
     <string name="prompt">权限提示</string>
+    <string name="yesterday">昨天</string>
 </resources>

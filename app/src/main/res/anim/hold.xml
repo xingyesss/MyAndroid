@@ -4,7 +4,7 @@
     <!-- 动画效果  从看不见到可以看见，也就是0到1，变幻时间为5000毫秒-->
     <alpha
         android:fromAlpha="1"
-        android:toAlpha="0.5"
-        android:duration="@android:integer/config_mediumAnimTime"
+        android:toAlpha="1"
+        android:duration="2000"
         />
 </set>
