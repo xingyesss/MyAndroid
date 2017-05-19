@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xingye.myandroid.book.slider.MySlider
+        android:id="@+id/myslide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.xingye.myandroid.book.slider.MySlider>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:onClick="start"
+        android:text="开始向左滑动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startRightMove"
+        android:text="开始向右滑动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="stop"
+        android:text="停止滑动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

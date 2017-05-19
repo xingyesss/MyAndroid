@@ -1,0 +1,91 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From GifView:
+* .gitignore
+* README.md
+* build.xml
+* proguard-project.txt
+From android_platform_laohan:
+* .DS_Store
+* JavaApk源码说明.txt
+* build.xml
+* proguard-project.txt
+* 点这里查看更多优质源码~.url
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In GifView:
+* AndroidManifest.xml => gifView/src/main/AndroidManifest.xml
+* assets/ => gifView/src/main/assets
+* res/ => gifView/src/main/res/
+* src/ => gifView/src/main/java/
+In android_platform_laohan:
+* AndroidManifest.xml => android_platform_laohan/src/main/AndroidManifest.xml
+* assets/ => android_platform_laohan/src/main/assets
+* libs/RennSDK-Android.jar => android_platform_laohan/libs/RennSDK-Android.jar
+* libs/android-async-http-1.4.3.jar => android_platform_laohan/libs/android-async-http-1.4.3.jar
+* libs/libammsdk.jar => android_platform_laohan/libs/libammsdk.jar
+* libs/mta-sdk-1.0.0.jar => android_platform_laohan/libs/mta-sdk-1.0.0.jar
+* libs/open_sdk.jar => android_platform_laohan/libs/open_sdk.jar
+* libs/photoview1.0.jar => android_platform_laohan/libs/photoview1.0.jar
+* libs/qweibo_help.jar => android_platform_laohan/libs/qweibo_help.jar
+* libs/tencent.jar => android_platform_laohan/libs/tencent.jar
+* libs/universal-image-loader-1.8.6.jar => android_platform_laohan/libs/universal-image-loader-1.8.6.jar
+* libs/weibo.sdk.android.sso.jar => android_platform_laohan/libs/weibo.sdk.android.sso.jar
+* res/ => android_platform_laohan/src/main/res/
+* src/ => android_platform_laohan/src/main/java/
+* src/.DS_Store => android_platform_laohan/src/main/resources/.DS_Store
+* src/com/.DS_Store => android_platform_laohan/src/main/resources/com/.DS_Store
+* src/com/svo/.DS_Store => android_platform_laohan/src/main/resources/com/svo/.DS_Store
+* src/com/svo/platform/.DS_Store => android_platform_laohan/src/main/resources/com/svo/platform/.DS_Store
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

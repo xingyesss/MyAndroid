@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 def releaseTime() {
     return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
 }
@@ -31,6 +32,11 @@ android {
         }
     }
 
+    greendao {
+        targetGenDir 'src/main/java'
+    }
+
+
     productFlavors {
 
         wandoujia {}
@@ -54,13 +60,19 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile project(':okgo')
     compile 'com.lzy.net:okgo:+'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
     compile 'com.android.support:multidex:1.0.1'
-
     compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
     compile 'com.jakewharton.rxbinding:rxbinding:1.0.0'
     compile 'me.iwf.photopicker:PhotoPicker:0.9.5@aar'
+
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.4'
+    compile 'com.github.jdsjlzx:LRecyclerView:1.4.3'
+
+    compile 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    /*greenDao使用*/
+    compile 'org.greenrobot:greendao:3.1.0'
 }

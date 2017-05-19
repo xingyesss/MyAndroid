@@ -5,4 +5,36 @@
     <color name="colorAccent">#FF4081</color>
     <color name="black_22">#222222</color>
     <color name="black">#000000</color>
+
+
+
+
+    <!--底部栏字体颜色设置-->
+    <color name="bar_normal">#888888</color>
+    <color name="bar_selected">#42110c</color>
+    <color name="login_other">#b4cadb</color>
+    <color name="bg_normal">#efeff4</color>
+    <color name="tv_22">#222222</color>
+    <color name="bg_44">#444444</color>
+    <color name="translate">#0000</color>
+    <color name="yellow">#fed232</color>
+    <color name="tv_88">#888888</color>
+    <color name="hint">#bbbbbb</color>
+    <color name="tv_cc">#cccccc</color>
+    <color name="blue">#0000ff</color>
+    <color name="red">#f05353</color>
+    <color name="tran_60">#99FFFFFF</color>
+    <color name="tv_66">#666666</color>
+    <color name="tran_99">#99000000</color>
+    <color name="tv_dd">#dddddd</color>
+    <color name="tv_ee">#eeeeee</color>
+    <color name="btn_selected">#00b6f9</color>
+    <color name="btn_normal">#d6d7d7</color>
+    <color name="tv_desc">#3eb7fc</color>
+    <color name="tv_redPackage">#ffd999</color>
+    <color name="tv_wait">#3eb7fc</color>
+    <color name="tv_sucess">#35a85b</color>
+    <color name="tv_blue">#3eb7fc</color>
+    <color name="tv_blue2">#2992ce</color>
+    <color name="lar_text">#f8d798</color>
 </resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.xingye.myandroid.widget.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/user_info_icon"
+            app:border_color="#0000"
+            app:border_width="0dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxHeight="250dp"
+            android:singleLine="true"
+            android:text="哈哈哈"
+            android:textColor="#1E1E1E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_focus"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/tv_focus_shape"
+            android:gravity="center"
+            android:text="+ 关注"
+            android:textColor="@color/tv_blue2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:text="标题"
+        android:textColor="#222"
+        android:textSize="16sp" />
+
+    <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+        android:id="@+id/videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv_admire"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tv_wait"
+        android:textSize="14sp" />
+</LinearLayout>
