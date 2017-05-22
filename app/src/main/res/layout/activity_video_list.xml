@@ -6,10 +6,21 @@
     android:background="#F0F1F9"
     android:orientation="vertical"
     >
-    <com.github.jdsjlzx.recyclerview.LRecyclerView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.jdsjlzx.recyclerview.LuRecyclerView
+            android:id="@+id/lRecylerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.github.jdsjlzx.recyclerview.LuRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!--<com.github.jdsjlzx.recyclerview.LRecyclerView
         android:id="@+id/lRecylerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </com.github.jdsjlzx.recyclerview.LRecyclerView>
+    </com.github.jdsjlzx.recyclerview.LRecyclerView>-->
 </LinearLayout>

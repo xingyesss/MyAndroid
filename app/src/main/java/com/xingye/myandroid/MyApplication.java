@@ -7,12 +7,15 @@ import com.lzy.okgo.OkGo;
 import com.lzy.okgo.model.HttpHeaders;
 import com.lzy.okgo.model.HttpParams;
 
+import fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard;
+
 /**
  * Created by sunxiquan on 2017/5/7.
  */
 
 public class MyApplication extends Application {
     public static MyApplication mApp;
+    public JCVideoPlayerStandard videoPlaying;
     @Override
     public void onCreate() {
         super.onCreate();
